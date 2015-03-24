@@ -6,8 +6,8 @@ class Home extends Resources\Controller
 {    
     public function index()
     {    
-        $data['title'] = 'Hello Andy';
+        $data['title'] = 'Hello World';
         
-        $this->output('home', $data);
+        $this->output('tema/default/home', $data);
     }
 }
