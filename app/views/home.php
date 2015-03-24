@@ -11,6 +11,7 @@
     <code><?php echo $this->uri->baseUri;?></code>
 
     <h1>Documentation and resource</h1>
+    <h1>Hello World</h1>
     <ul>
         <li>To check your system minimum requirements, please click this <a href="check.php">Checking Tools</a>.</li>
         <li>To see Hello World page from a module sample, <a href="<?php echo $this->location('modSample'); ?>">click here.</a></li>
