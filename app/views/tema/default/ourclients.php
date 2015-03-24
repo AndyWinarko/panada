@@ -13,7 +13,7 @@ Released   : 20130113
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php echo $title;?></title>
+<title></title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -34,7 +34,7 @@ Released   : 20130113
 		<div id="menu">
 			<ul>
 				<li class="first active"><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="#" accesskey="2" title="">Our Clients</a></li>
 				<li><a href="#" accesskey="3" title="">About Us</a></li>
 				<li><a href="#" accesskey="4" title="">Careers</a></li>
 				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
@@ -42,49 +42,9 @@ Released   : 20130113
 		</div>
 	</div>
 </div>
-<div id="banner">
-	<div id="slider">
-		<div class="viewer">
-			<div class="reel">
-				<div class="slide">
-					<h2>This is the first slide.</h2>
-					<p>Lorem ipsum dolor sit amet nullam.</p>
-					<a class="link" href="#">Full story ...</a> <img src="<?php echo $this->uri->baseUri; ?>assets/tema/default/images/pic01.jpg" alt="" /> </div>
-				<div class="slide">
-					<h2>This is the second slide.</h2>
-					<p>Lorem ipsum dolor sit amet nullam.</p>
-					<a class="link" href="#">Full story ...</a> <img src="<?php echo $this->uri->baseUri; ?>assets/tema/default/images/pic02.jpg" alt="" /> </div>
-				<div class="slide">
-					<h2>This is the third slide.</h2>
-					<p>Lorem ipsum dolor sit amet nullam.</p>
-					<a class="link" href="#">Full story ...</a> <img src="<?php echo $this->uri->baseUri; ?>assets/tema/default/images/pic03.jpg" alt="" /> </div>
-			</div>
-		</div>
-		<div class="indicator">
-			<ul>
-				<li class="active">1</li>
-				<li>2</li>
-				<li>3</li>
-			</ul>
-		</div>
-	</div>
-	<script type="text/javascript">
-		$('#slider').slidertron({
-			viewerSelector: '.viewer',
-			reelSelector: '.viewer .reel',
-			slidesSelector: '.viewer .reel .slide',
-			advanceDelay: 3000,
-			speed: 'slow',
-			navPreviousSelector: '.previous-button',
-			navNextSelector: '.next-button',
-			indicatorSelector: '.indicator ul li',
-			slideLinkSelector: '.link'
-		});
-	</script> 
-</div>
 <div id="wrapper">
 	<div id="featured" class="container">
-		<h2 class="title">Praesent mattis condimentum</h2>
+		<h2 class="title"><?php echo $title; ?></h2>
 		<div id="fbox1"> <img src="images/pic04.jpg" width="235" height="235" alt="" />
 			<h2>Fusce ultrices fringilla</h2>
 			<p>In posuere eleifend quisque semper augue mattis wisi maecenas ligula.</p>

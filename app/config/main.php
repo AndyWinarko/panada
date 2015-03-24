@@ -2,7 +2,7 @@
 
 return array(
     
-    'defaultController' => 'Home',
+    'defaultController' => 'Ourclients',
     
     // Just put null value if you has enable .htaccess file
     'indexFile' => INDEX_FILE . '/',
