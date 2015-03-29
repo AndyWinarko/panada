@@ -4,7 +4,7 @@ Design by TEMPLATED
 http://templated.co
 Released for free under the Creative Commons Attribution License
 
-Name       : Universality 
+Name       : Universality
 Description: A two-column, fixed-width design with dark color scheme.
 Version    : 1.0
 Released   : 20130113
@@ -13,7 +13,7 @@ Released   : 20130113
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+<title><?php echo $title; ?></title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
