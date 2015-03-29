@@ -11,7 +11,7 @@ class Home extends Resources\Controller
         $this->output('tema/default/home', $data);
     }
 
-    function greeting(){
+    public function greeting(){
         echo "hello world";
     }
 }
