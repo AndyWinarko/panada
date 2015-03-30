@@ -33,11 +33,11 @@ Released   : 20130113
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="first active"><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="#" accesskey="2" title="">Our Clients</a></li>
-				<li><a href="#" accesskey="3" title="">About Us</a></li>
-				<li><a href="#" accesskey="4" title="">Careers</a></li>
-				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+				<li class="first active"><a href="<?php echo $this->uri->baseUri;?>index.php/home" accesskey="1" title="">Homepage</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/ourclient" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/aboutus" accesskey="3" title="">About Us</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/careers" accesskey="4" title="">Careers</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/contactus" accesskey="5" title="">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
@@ -84,7 +84,7 @@ Released   : 20130113
 	</div>
 </div>
 <div id="footer">
-	<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+	<p><?php echo $footer; ?></p>
 </div>
 </body>
 </html>

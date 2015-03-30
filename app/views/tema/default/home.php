@@ -4,7 +4,7 @@ Design by TEMPLATED
 http://templated.co
 Released for free under the Creative Commons Attribution License
 
-Name       : Universality 
+Name       : Universality
 Description: A two-column, fixed-width design with dark color scheme.
 Version    : 1.0
 Released   : 20130113
@@ -33,11 +33,11 @@ Released   : 20130113
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="first active"><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/" accesskey="2" title="">Our Clients</a></li>
-				<li><a href="#" accesskey="3" title="">About Us</a></li>
-				<li><a href="#" accesskey="4" title="">Careers</a></li>
-				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+				<li class="first active"><a href="<?php echo $this->uri->baseUri;?>index.php/home" accesskey="1" title="">Homepage</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/ourclient" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/aboutus" accesskey="3" title="">About Us</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/careers" accesskey="4" title="">Careers</a></li>
+				<li><a href="<?php echo $this->uri->baseUri; ?>index.php/pages/contactus" accesskey="5" title="">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
@@ -80,7 +80,7 @@ Released   : 20130113
 			indicatorSelector: '.indicator ul li',
 			slideLinkSelector: '.link'
 		});
-	</script> 
+	</script>
 </div>
 <div id="wrapper">
 	<div id="featured" class="container">
